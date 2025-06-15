@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI_Layer.ProfilePage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="58dp">
+
+        <ImageView
+            android:id="@+id/img_Login_Background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/background_image_login" />
+
+        <ImageView
+            android:id="@+id/imgBackgroundWhite"
+            android:layout_width="415dp"
+            android:layout_height="709dp"
+            android:layout_marginTop="160dp"
+            android:scaleType="fitEnd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/white_background" />
+
+        <ImageView
+            android:id="@+id/imgProfilePhotoPortrait"
+            android:layout_width="130dp"
+            android:layout_height="131dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtProfileCaptionPortrait"
+            app:srcCompat="@drawable/individual_photo" />
+
+        <EditText
+            android:id="@+id/txtProfileCaptionPortrait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Caption"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblProfileNameDisplayPortrait" />
+
+        <TextView
+            android:id="@+id/lblProfileNameDisplayPortrait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:text="Name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgProfileMobilePortrait"
+            android:layout_width="192dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="211dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgProfilePhotoPortrait"
+            app:srcCompat="@drawable/phone_field_format" />
+
+        <EditText
+            android:id="@+id/txtProfileMobilePhonePortrait"
+            android:layout_width="153dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="4dp"
+            android:background="#00FFFFFF"
+            android:ems="10"
+            android:inputType="phone"
+            android:text="9876543210"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imgProfileMobilePortrait"
+            app:layout_constraintEnd_toEndOf="@+id/imgProfileMobilePortrait"
+            app:layout_constraintStart_toStartOf="@+id/imgProfileMobilePortrait"
+            app:layout_constraintTop_toTopOf="@+id/imgProfileMobilePortrait" />
+
+        <TextView
+            android:id="@+id/lblProfileMobileNumberPortrait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="53dp"
+            android:layout_marginBottom="26dp"
+            android:text="@string/src_Mobile_number"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/imgProfileMobilePortrait"
+            app:layout_constraintEnd_toEndOf="@+id/imgProfileMobilePortrait"
+            app:layout_constraintStart_toStartOf="@+id/imgProfileMobilePortrait"
+            app:layout_constraintTop_toTopOf="@+id/imgProfileMobilePortrait" />
+
+        <ImageView
+            android:id="@+id/imgProfileEmailAddressPortrait"
+            android:layout_width="192dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgProfileMobilePortrait"
+            app:layout_constraintTop_toBottomOf="@+id/imgProfilePhotoPortrait"
+            app:srcCompat="@drawable/individual_email" />
+
+        <TextView
+            android:id="@+id/lblProfileEmailAddressPortrait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="59dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginBottom="26dp"
+            android:text="@string/src_email_address"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/imgProfileEmailAddressPortrait"
+            app:layout_constraintEnd_toEndOf="@+id/imgProfileEmailAddressPortrait"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imgProfileEmailAddressPortrait" />
+
+        <EditText
+            android:id="@+id/txtProfileEmailAddressPortrait"
+            android:layout_width="147dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="27dp"
+            android:background="#00FFFFFF"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="a@a.com"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imgProfileEmailAddressPortrait"
+            app:layout_constraintEnd_toEndOf="@+id/imgProfileEmailAddressPortrait"
+            app:layout_constraintStart_toStartOf="@+id/imgProfileEmailAddressPortrait"
+            app:layout_constraintTop_toTopOf="@+id/imgProfileEmailAddressPortrait"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/imgProfileLocationPortrait"
+            android:layout_width="192dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="211dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgProfileMobilePortrait"
+            app:srcCompat="@drawable/location_individual" />
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="83dp"
+            android:layout_marginBottom="91dp"
+            android:text="@string/src_location"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/imgProfileLocationPortrait"
+            app:layout_constraintEnd_toEndOf="@+id/imgProfileLocationPortrait"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/imgProfileLocationPortrait"
+            app:layout_constraintTop_toTopOf="@+id/imgProfileLocationPortrait" />
+
+        <ListView
+            android:id="@+id/lstProfileLocationPortrait"
+            android:layout_width="168dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="192dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="12dp"
+            android:clipChildren="false"
+            app:layout_constraintBottom_toBottomOf="@+id/imgProfileLocationPortrait"
+            app:layout_constraintEnd_toEndOf="@+id/imgProfileLocationPortrait"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/imgProfileLocationPortrait"
+            app:layout_constraintTop_toTopOf="@+id/imgProfileLocationPortrait" />
+
+        <ImageView
+            android:id="@+id/imgDOB"
+            android:layout_width="192dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgProfileLocationPortrait"
+            app:layout_constraintTop_toBottomOf="@+id/imgProfileEmailAddressPortrait"
+            app:srcCompat="@drawable/individual_dob" />
+
+        <TextView
+            android:id="@+id/lblDOB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="69dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/src_DOB_string"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/imgDOB"
+            app:layout_constraintEnd_toEndOf="@+id/imgDOB"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/imgDOB"
+            app:layout_constraintTop_toTopOf="@+id/imgDOB" />
+
+        <EditText
+            android:id="@+id/txtProfileDOBPortrait"
+            android:layout_width="147dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="27dp"
+            android:background="#00FFFFFF"
+            android:clickable="true"
+            android:focusable="false"
+            android:importantForAutofill="no"
+            android:inputType="datetime|date"
+            android:text="@string/src_DOB_string"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imgDOB"
+            app:layout_constraintEnd_toEndOf="@+id/imgDOB"
+            app:layout_constraintStart_toStartOf="@+id/imgDOB"
+            app:layout_constraintTop_toTopOf="@+id/imgDOB"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/imgProfileGender"
+            android:layout_width="192dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgProfileLocationPortrait"
+            app:layout_constraintTop_toBottomOf="@+id/imgDOB"
+            app:srcCompat="@drawable/individual_gender" />
+
+        <EditText
+            android:id="@+id/txtProfileGenderPortrait"
+            android:layout_width="153dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="23dp"
+            android:background="#00FFFFFF"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Male"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imgProfileGender"
+            app:layout_constraintEnd_toEndOf="@+id/imgProfileGender"
+            app:layout_constraintStart_toStartOf="@+id/imgProfileGender"
+            app:layout_constraintTop_toTopOf="@+id/imgProfileGender" />
+
+        <TextView
+            android:id="@+id/lblProfileGenderPortrait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="77dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/src_gender_profile"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/imgProfileGender"
+            app:layout_constraintEnd_toEndOf="@+id/imgProfileGender"
+            app:layout_constraintStart_toStartOf="@+id/imgProfileGender"
+            app:layout_constraintTop_toTopOf="@+id/imgProfileGender" />
+
+        <ImageView
+            android:id="@+id/imgProfileLoginIdPortrait"
+            android:layout_width="192dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgProfileLocationPortrait"
+            app:srcCompat="@drawable/individual_login_id" />
+
+        <TextView
+            android:id="@+id/lblProfileLoginPortrait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="77dp"
+            android:layout_marginBottom="23dp"
+            android:text="@string/src_Login_id"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/imgProfileLoginIdPortrait"
+            app:layout_constraintEnd_toEndOf="@+id/imgProfileLoginIdPortrait"
+            app:layout_constraintStart_toStartOf="@+id/imgProfileLoginIdPortrait"
+            app:layout_constraintTop_toTopOf="@+id/imgProfileLoginIdPortrait" />
+
+        <TextView
+            android:id="@+id/lblLoginUserIdView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="77dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/src_Login_id"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imgProfileLoginIdPortrait"
+            app:layout_constraintEnd_toEndOf="@+id/imgProfileLoginIdPortrait"
+            app:layout_constraintStart_toStartOf="@+id/imgProfileLoginIdPortrait"
+            app:layout_constraintTop_toTopOf="@+id/imgProfileLoginIdPortrait" />
+
+        <Button
+            android:id="@+id/cmdProfileChangePasswordPortrait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/src_Change_Password"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgProfileLoginIdPortrait" />
+
+        <Button
+            android:id="@+id/cmdProfileSavePortrait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/src_save_changes"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cmdProfileChangePasswordPortrait" />
+
+        <Button
+            android:id="@+id/cmdProfileCancelPortrait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="18dp"
+            android:text="@string/src_cancel_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cmdProfileSavePortrait" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

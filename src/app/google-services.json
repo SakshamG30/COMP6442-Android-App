@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "693231243735",
+    "project_id": "ancw-softcon",
+    "storage_bucket": "ancw-softcon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693231243735:android:2e2fafc8bd0376e4723b92",
+        "android_client_info": {
+          "package_name": "com.example.g11_group_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693231243735-aav0gjpafq2n03l8vv3u4bhkovmeuk02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.g11_group_application",
+            "certificate_hash": "3f5fe67f4e78ef0d402679b93247449618822f38"
+          }
+        },
+        {
+          "client_id": "693231243735-373375lkpi91frn64l4rruq26vrt2gsq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6AopokFMz1Ymyg9j9NXE_eRAmgJ0BQhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693231243735-373375lkpi91frn64l4rruq26vrt2gsq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image_login"
+    tools:context=".UI_Layer.HomePage">
+    <TableLayout
+        android:id="@+id/tableLayoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:padding="16dp">
+    </TableLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:padding="16dp">
+        </TableLayout>
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/nextPageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:onClick="nextPage"
+        android:text="Next Page" />
+
+    <Button
+        android:id="@+id/previousPageButton"
+        android:layout_width="120dp"
+        android:layout_height="37dp"
+        android:onClick="previousPage"
+        android:text="Previous Page" />
+
+    <lecho.lib.hellocharts.view.LineChartView
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <LinearLayout
+        android:id="@+id/linear_layout_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- Home Button and Label -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/button_home"
+                android:layout_width="137dp"
+                android:layout_height="45dp"
+                android:background="?attr/selectableItemBackground"
+                android:src="@drawable/ic_home_black_24dp" />
+
+        </LinearLayout>
+
+        <!-- Dashboard Button and Label -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/button_dashboard"
+                android:layout_width="137dp"
+                android:layout_height="46dp"
+                android:background="?attr/selectableItemBackground"
+                android:src="@drawable/ic_dashboard_black_24dp" />
+
+        </LinearLayout>
+
+        <!-- Search Button and Label -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/button_search"
+                android:layout_width="137dp"
+                android:layout_height="47dp"
+                android:background="?attr/selectableItemBackground"
+                android:src="@drawable/ic_notifications_black_24dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:id="@+id/main"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".UI_Layer.HomePage">-->
+
+<!--    <TableLayout-->
+<!--        android:id="@+id/tableLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:stretchColumns="*"-->
+<!--        android:padding="16dp"-->
+<!--        tools:ignore="MissingConstraints">-->
+<!--    </TableLayout>-->
+<!--    <lecho.lib.hellocharts.view.LineChartView-->
+<!--        android:id="@+id/chart"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+<!--&lt;!&ndash;    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;           android:id="@+id/textView"&ndash;&gt;-->
+<!--&lt;!&ndash;           android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;           android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;           android:text=""&ndash;&gt;-->
+<!--&lt;!&ndash;           app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;           app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;           app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;           app:layout_constraintTop_toTopOf="parent" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <ScrollView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/scrollView"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintBottom_toBottomOf="parent">&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <androidx.constraintlayout.widget.ConstraintLayout&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/clTableContainer"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content">&ndash;&gt;-->
+<!--&lt;!&ndash;        </androidx.constraintlayout.widget.ConstraintLayout>&ndash;&gt;-->
+<!--&lt;!&ndash;    </ScrollView>&ndash;&gt;-->
+
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">AncestralWell</string>
+    <string name="src_Password">Password</string>
+    <string name="src_Email_Username">Login id</string>
+    <string name="src_Enter_Email_Uname">Enter your login id</string>
+    <string name="src_Enter_Password">Enter Password</string>
+    <string name="src_Enter_New_Password">Enter New Password</string>
+    <string name="src_Enter_Old_Password">Enter Old Password</string>
+    <string name="src_btnLogin">Log In</string>
+    <string name="src_ForgotPwd">Forgot Password?</string>
+    <string name="src_forgot_pass_first_entry">Enter New Password</string>
+    <string name="src_forgot_pass_second_entry">Enter Password Again</string>
+    <string name="src_resetpass_label">Reset Password</string>
+    <string name="src_submit_pass_button">Submit New Password</string>
+    <string name="src_cancel_button">Cancel</string>
+    <string name="src_Enter_First_Name">Enter First Name</string>
+    <string name="src_Enter_Middle_Name">Enter Middle Name</string>
+    <string name="src_Enter_Last_Name">Enter Last Name</string>
+    <string name="src_Enter_Address_1">Enter Address Line 1</string>
+    <string name="src_Enter_Address_2">Enter Address Line 2</string>
+    <string name="src_Enter_Address_3">Enter Address Line 3</string>
+    <string name="src_Enter_Gender">Enter Gender</string>
+    <string-array name="gender_options">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string name="src_Enter_MobileNumber">Enter Mobile Number</string>
+    <string name="src_Enter_Email">Enter Email Id</string>
+    <string name="src_Enter_DateOfBirth">Enter DOB</string>
+    <string name="src_Enter_Caption">Enter Caption</string>
+    <string name="src_label_first_name">First Name\n</string>
+    <string name="src_label_middle_name">Middle Name</string>
+    <string name="src_label_last_name">Last Name\n</string>
+    <string name="src_label_address1">Address Line 1</string>
+    <string name="src_label_address2">Address Line 2</string>
+    <string name="src_label_address3">Address Line 3</string>
+    <string name="src_label_select_Gender">Select Gender</string>
+    <string name="src_label_dateOfBirth">Enter Date of Birth</string>
+    <string name="src_Create_New_User">Sign Up?</string>
+    <string name="src_btnSubmit">Submit</string>
+    <string name="src_lbl_Create_New_User">Begin Your Journey</string>
+    <string name="src_SecAnswer_Hint">Type Your Answer Here</string>
+    <string name="title_activity_app_main_page">AppMainPage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="src_Mobile_number">Mobile Number</string>
+    <string name="src_email_address">Email Address</string>
+    <string name="src_location">Location</string>
+    <string name="src_DOB_string">Date of Birth</string>
+    <string name="src_gender_profile">Gender</string>
+    <string name="src_Login_id">Login id</string>
+    <string name="src_Change_Password">Change Password</string>
+    <string name="src_save_changes">Save Changes</string>
+    <string name="title_search">Search</string>
+    <string name="src_search_bar">Search</string>
+    <string name="src_filter">Filter</string>
+    <string name="src_home">Home</string>
+    <string name="src_dashboard">Dashboard</string>
+    <string name="src_search_name">Search</string>
+    <string name="src_username">Username</string>
+    <string name="chat_send">Send</string>
+    <string name="src_type_message">Type a Message...</string>
+    <string name="src_chat_title">Chat Title</string>
+    <string name="src_ancestra_desc">Welcome to AncestraWell!\nYour space to Discover, Connect, Grow. AncestraWell is not just an app—it\'s a community where everyone, First Nation\'s and non-First Nation\'s Australians alike, come together. Here, you can dive into the deep traditions of First Nations cultures and join hands in supporting each other\'s social and emotional wellbeing.\nWhat You’ll Find Inside:\n -Community Groups: Join local or virtual gatherings, from cultural exchange workshops to wellness circles.\n -Interactive Chats: Share stories, seek guidance, and grow your network with meaningful conversations.\n -Learning Resources (to be updated): Access articles, videos, and podcasts to deepen your understanding of Indigenous histories and contemporary issues.</string>
+    <string name="src_security_question">Choose Security Questions</string>
+    <string name="src_first_nation">Are you a part of the First Nations community?</string>
+    <string name="src_message">You have new messages!</string>
+    <string name="src_welcome">Welcome Unnamed</string>
+
+</resources>

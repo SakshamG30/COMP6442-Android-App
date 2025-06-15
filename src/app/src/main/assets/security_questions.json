@@ -1,0 +1,82 @@
+[
+  {
+    "asqm_sec_question": "What is your favorite color?",
+    "asqm_sec_qu_id": 1
+  },
+  {
+    "asqm_sec_question": "What city were you born in?",
+    "asqm_sec_qu_id": 2
+  },
+  {
+    "asqm_sec_question": "What is the name of your first pet?",
+    "asqm_sec_qu_id": 3
+  },
+  {
+    "asqm_sec_question": "Where did you study in high school?",
+    "asqm_sec_qu_id": 4
+  },
+  {
+    "asqm_sec_question": "What is your mother's maiden name?",
+    "asqm_sec_qu_id": 5
+  },
+  {
+    "asqm_sec_question": "What was the model of your first car?",
+    "asqm_sec_qu_id": 6
+  },
+  {
+    "asqm_sec_question": "What is your paternal grandfather's first name?",
+    "asqm_sec_qu_id": 7
+  },
+  {
+    "asqm_sec_question": "In what city did your parents meet?",
+    "asqm_sec_qu_id": 8
+  },
+  {
+    "asqm_sec_question": "What is your favorite book?",
+    "asqm_sec_qu_id": 9
+  },
+  {
+    "asqm_sec_question": "What was the name of your elementary school?",
+    "asqm_sec_qu_id": 10
+  },
+  {
+    "asqm_sec_question": "What was your childhood nickname?",
+    "asqm_sec_qu_id": 11
+  },
+  {
+    "asqm_sec_question": "In what city does your nearest sibling live?",
+    "asqm_sec_qu_id": 12
+  },
+  {
+    "asqm_sec_question": "What was your dream job as a child?",
+    "asqm_sec_qu_id": 13
+  },
+  {
+    "asqm_sec_question": "What street did you live on in third grade?",
+    "asqm_sec_qu_id": 14
+  },
+  {
+    "asqm_sec_question": "What was your favorite food as a child?",
+    "asqm_sec_qu_id": 15
+  },
+  {
+    "asqm_sec_question": "What is the first name of your favorite childhood friend?",
+    "asqm_sec_qu_id": 16
+  },
+  {
+    "asqm_sec_question": "What was the first concert you attended?",
+    "asqm_sec_qu_id": 17
+  },
+  {
+    "asqm_sec_question": "What was the make of your first motorcycle (if any)?",
+    "asqm_sec_qu_id": 18
+  },
+  {
+    "asqm_sec_question": "What was your favorite teacher’s surname in high school?",
+    "asqm_sec_qu_id": 19
+  },
+  {
+    "asqm_sec_question": "What is the name of the hospital where you were born?",
+    "asqm_sec_qu_id": 20
+  }
+]
